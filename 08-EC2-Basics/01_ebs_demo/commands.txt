@@ -5,6 +5,7 @@
 lsblk
 sudo file -s /dev/xvdf
 sudo mkfs -t xfs /dev/xvdf
+output -> /dev/xvdf: SGI XFS filesystem data (blksz 4096, inosz 512, v2 dirs)
 sudo file -s /dev/xvdf
 sudo mkdir /ebstest
 sudo mount /dev/xvdf /ebstest
